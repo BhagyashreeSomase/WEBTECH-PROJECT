@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let obj={
+            key1:"value1",
+            key2:"value2"
+        }
+        //add(): IT IS USED TO ADD AN ELEMENT
+        obj.key3="value3"
+        console.log(obj);
+
+        obj.key4="value4"
+        console.log(obj);
+        //freeze():IT IS USED TO FREEZE THE OBJECT IT MEANS THAT WE CANT UPDATE
+        //OR MODIFY AN OBJECT
+        console.log(Object.freeze(obj));
+        obj.key5="value5"
+        console.log(obj);
+    </script>
+</body>
+</html>

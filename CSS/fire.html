@@ -1,0 +1,47 @@
+
+     html.body{
+        height: 100px;
+     }
+     body{
+        background: $black;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        font-family:sans-serif;
+     }
+     .fireplace{
+        width: 320px;
+        height: 320px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        &
+--flame,&--flame-big{
+    height: 250px;
+    width: 100px;
+    border-radius:50% 50% 30% 30%;
+    transform:scale(1,1,1,2);
+    filter:blur(50px);
+    background:orange;
+    position: absolute;
+    top:40px;left:0;
+    z-index:-1;
+    opacity:0.4;
+}
+  .blur {
+    filter:blur(1px);
+    &.fix{
+        position: absolute;
+    }
+}
+     }
+    <div class="fireplace">
+        <div class="blur">
+            <div class="fireplace--flame-big"></div>
+        </div>
+        <div class="blur fix">
+        <div class="fireplace--flame"></div>
+    </div>
+    <div class="fireplace--light"></div>
+</div>

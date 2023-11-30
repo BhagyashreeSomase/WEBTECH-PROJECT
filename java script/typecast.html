@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // //implicite type casting
+        // console.log(5+5);
+        
+        // console.log("5"-2);
+
+        // console.log(true+1);
+        // console.log("true"+true);
+        // console.log("10"-2);
+        // console.log(true+true);
+        // console.log("true"+1);
+        // console.log(false-"2");
+
+        //explicite typecasting
+
+        console.log("5"+5);
+        console.log(Number("5")+5);
+        console.log(Boolean("true")+2);//3
+        console.log(Boolean("true")+"false");//truefalse
+        console.log(Boolean("true")+false);//1
+        console.log(Number("a"+5));//NaN(Not a Number)
+        console.log(5+5);//10
+        console.log(String(5)+5);//55
+    </script>
+</body>
+</html>

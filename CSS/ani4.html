@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            /* background-color: crimson; */
+            background-image: repeating-radial-gradient(orange,green 10%,hotpink 20%);
+            border-radius: 50%;
+            animation-name: rotate1;
+            animation-iteration-count: infinite;
+            animation-duration: 1s;
+            animation-direction: reverse;
+            /* animation-play-state: paused; */
+            animation-play-state: running;
+        }
+        @keyframes rotate1 {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>BOX1</div>
+</body>
+</html>

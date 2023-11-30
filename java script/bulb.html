@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #bulb{
+            height: 200px;
+            width: 200px;
+            border: 1px solid;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+      <div id="bulb"></div>
+    <button onclick="demo()">ON</button>
+        <script>
+         function demo(){
+            let ele=document.getElementById("bulb")
+            ele.style.backgroundColor=prompt("enter color name")
+         }
+        </script>
+</body>
+</html>

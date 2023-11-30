@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 50px;
+            width: 50px;
+            border: 1px solid;
+            margin: 0 auto;
+            margin-top: 50px;
+            animation-name: squrel;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-delay: 3s;
+            animation-direction: reverse;
+            position: relative;
+        }
+        @keyframes squrel{
+            0%{
+                top: 50px;
+                left: 60px;
+                background-color: aqua;
+            }
+            25%{
+                top: 100px;
+                left: 50px;
+                right: 56px;
+                background-color: aquamarine;
+            }
+            50%{
+                top: 200px;
+                left: 10px;
+                right: 56px;
+                background-color: chocolate;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>

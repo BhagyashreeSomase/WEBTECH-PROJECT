@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //string methods
+        let str="hello"
+        console.log(str.length);
+        //slice()
+        console.log(str.slice(1,3));
+        //toUppercase():TO CONVERT THE STRING IN TO UPPERCASE
+        let str2="uppercase"
+        console.log(str2.toUpperCase());
+        //toLowerCase():TO CONVERT THE STRING IN TO LOWERCASE
+        let str3="LOWERCASE"
+        console.log(str3.toLowerCase());
+    //concat()
+    let con1="hi"
+    let con2="bye"
+    console.log(con1+con2);
+    console.log(con1.concat(con2));
+    //charAt():IT IS USED TO CHECK THE CHARACTER WITH HELP ITS INDEX
+    let char="charAt"
+    console.log(char.charAt(3));
+    //charAtCode():IT IS USED TO CHECK THE CHARACTER ASCII VALUE
+    let char1="charAtCode"
+    console.log(char1.charCodeAt(2));//97
+    // replace():IT IS USED TO REPLACE THE STRING BY USING NEW STRING.
+     let journey="pune to goa"
+     console.log(journey.replace("pune","mumbai"));
+     //repeat(): IT IS USED TO REPEAT THE STRING
+      console.log(journey.repeat(5));
+      //startWith():IT IS USED TO CHECK WETHERR STRING START WITH SPECIFIC CHARACTER OR NOT IF YES MEANS 
+      //IT WILL RETURNS true or ELSE false
+      let start="startsWith"
+      console.log(start.startsWith("S"));//false
+      console.log(start.startsWith("s"));//true
+      //endWith()IT IS USED TO CHECK WETHERR STRING ENDS WITH SPECIFIC CHARACTER OR NOT IF YES MEANS 
+      //IT WILL RETURNS true or ELSE false
+      let end="endsWith"
+      console.log(end.endsWith("H"));//false
+      console.log(end.endsWith("h"));//true
+    //   trim():IT IS USED TO REMOVE THE WIDE SPACE IN BETWEEN STRING
+   let trim1="trim"
+   console.log(trim1);
+   console.log(trim1.length);
+   console.log(trim1.trim());
+   //trimEnd():IT IS USED TO REMOVE THE WIDE SPACE OF STRING FROM END.
+   let trim2="trimEnd"
+   console.log(trim2.length);
+   console.log(trim2.trimEnd());
+   //trimStart():IT IS USED TO REMOVE THE WIDE SPACE OF STRING FROM START.
+   let trim3="trimStart"
+   console.log(trim3.length);
+   console.log(trim3.trimStart());
+   //subStr(st.index,last index)
+   let substr="substr"
+   console.log(substr.substr(1,3));
+   let slice="java script"
+   console.log(slice.slice(-4));
+   //includes()
+   let inclu="includes"
+   console.log(inclu.includes("f"));
+   //indexOf()
+   let inde="indexOf"
+   console.log(inde.indexOf("x"));
+</script>
+</body>
+</html>

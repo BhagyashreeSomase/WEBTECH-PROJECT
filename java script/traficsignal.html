@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #outerbox{
+            height: 300px;
+            width: 100px;
+            border: 1px solid;
+            border-radius: 30px;
+            background-color: black2;
+        }
+        .signal{
+            height: 70px;
+            width: 70px;
+            margin: auto;
+            margin-top: 20px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="outerbox">   
+     <div class="signal" id="stop"></div>
+     <div class="signal" id="wait"></div>
+     <div class="signal" id="go"></div>
+     </div>
+     <br>
+     <button onclick="update()">Change</button>
+     <script>
+        function update(){
+        var inp=prompt("enter your input")
+        let ele=document.getElementsByClassName("signal")
+        if (inp=="stop") {
+            ele[0].style.backgroundColor="red";
+        }
+        else if(inp=="wait"){
+            ele[1].style.backgroundColor="yellow";
+        }
+        else if(inp=="go"){
+            ele[2].style.backgroundColor="green";
+        }
+        else{
+            alert("enter correct input");
+        }
+    }
+     </script>
+</body>
+</html>

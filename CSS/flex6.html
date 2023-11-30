@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height: 600px;
+            width: 600px;
+            border: 1px solid;
+            margin: 0 auto;
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+
+        }
+        .card{
+            height: 100px;
+            width: 80px;
+            border: 1px solid;
+            background-color: yellow;
+            font-weight: 500;
+            color: red;
+        }
+        #card2{
+            order: -2;
+        }
+        #card3{
+            order: 2;
+        }
+        #card1{
+            order: -1;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <div class="card" id="card1">CARD1=0</div>
+        <div class="card" id="card2">CARD2=-1</div>
+        <div class="card" id="card3">CARD3=-2</div>
+        <div class="card" id="card4">CARD4=0</div>
+    </div>
+</body>
+</html>

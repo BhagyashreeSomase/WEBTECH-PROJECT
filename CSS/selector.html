@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*h1{
+            color: red;
+        }*/
+       /* #head2{
+            color: blueviolet;
+        }*/
+        /*.even{
+         background-color: aqua;
+         color: antiquewhite;
+        }*/
+       /* h1{
+            background-color: chartreuse;
+            color: blue;
+        }*/
+        *{
+            /*UNIVERSAL SELECTOR:IF WE WANT TO TARGET ALL THESE ELEMENT IN
+             ONE SHOT MAKE A USE OF UNIVERSAL SELECTOR
+            EX-*{property:"value";}*/
+            background-color: yellow;
+            color: rebeccapurple;
+        }
+        .h1{
+            background-color: black;
+            color: beige;
+        }
+        #head4{
+            background-color: red;
+            color: orange;
+        }
+        h3{
+            background-color: pink;
+            color: greenyellow;
+        }
+    </style>
+</head>
+<body>
+    <!-- ID SELECTORS:IF WE WANT TO TARGET SPECIFIC ELEMENT
+         WE NEED TO PROVIDE ID(UNIQUE IDENTIFICATION)
+     AND WE CAN TARGET BY USING ITS ID NAME
+    EX-#IDNAME{PROPERTY:VALUE}-->
+    <!-- <h1>THIS IS HEADING1</h1> 
+    <h1 id="head2">THIS IS HEADING2</h1>
+    <h1>THIS IS HEADING3</h1>-->
+    <!-- CLASS SELECTOR:IF WE WANT TO TARGET MULTIPLE ELEMENT
+         IN ONE SHOT WE NEED TO PROVIDE CLASS SELECTOR
+    EX-className{property:"value;"} -->
+    <h1>THIS IS HEADING1</h1>
+    <h2 class="even">THIS IS HEADING2</h2>
+    <h3>THIS IS HEADING3</h3>
+    <h4 class="even">THIS IS HEADING4</h4>
+    <h5>THIS IS HEADING5</h5>
+    <h6 class="even">THIS IS HEADING6</h6>
+    <!-- ELEMENT SELECTOR:BY USING ELEMENT NAME WE CAN TARGET
+    EX-elementName{property:"value";} -->
+    <!--<h1>THIS IS HEADING1</h1>
+    <h2>THIS IS HEADING2</h2>
+    <h1>THIS IS HEADING1</h1>
+    <h2>THIS IS HEADING2</h2>
+    <h1>THIS IS HEADING1</h1>
+    <h2>THIS IS HEADING3</h3>-->
+        <!-- PRIORITY SELECTOR -->
+<h1 class="h1">THIS IS HEADING1</h1>
+<h2>THIS IS HEADING2</h2>
+<h3 class="h1">THIS IS HEADING3</h3>
+<h4>THIS IS HEADING4</h4>
+<h5 class="h1">THIS IS HEADING5</h5>
+<h6>THIS IS HEADING6</h6>
+</body>
+</html>

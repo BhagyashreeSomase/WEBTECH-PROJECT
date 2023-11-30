@@ -1,0 +1,2 @@
+
+    console.log("THIS IS EXTERNAL JS IMPLEMENTATION");

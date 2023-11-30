@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    #box{
+        height: 100px;
+        width: 100px;
+        border: 1px solid;
+        margin: auto;
+        margin-top: 100px;
+    }
+    </style>
+</head>
+<body>
+    <div id="box" onmouseover="getOver()" onmouseover="getOut()"></div>
+    <script>
+        var ele=document.getElementById("box")
+        function getOver() {
+            ele.style.backgroundColor="blue"
+        }
+        function getOut() {
+            ele.style.backgroundColor="yellow"
+            ele.style.height="300px"
+            ele.style.height="300px"
+        }
+    </script>
+</body>
+</html>

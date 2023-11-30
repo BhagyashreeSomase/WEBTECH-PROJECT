@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com"crossorigin>
+    <style>
+    #parent{
+         height: 100vh;
+         width: 100vw;
+    }
+    #nav1{
+        height: 80px;
+        width: 100vw;
+        display:flex;
+        box-shadow: 0px 5px 5px rgb(192,192,201);
+        justify-content: center;
+    }
+    .box{
+        height: 20px;
+        width: 110px;
+        margin-top: 25px;
+        background-position: center;
+    }
+    #img{
+        background-image: url(./nobroker-logo.jpg);
+       height:30px;
+       width:30px;
+        background-position: left;
+        background-repeat: no-repeat;
+        /* width: 10px; */
+        /* height: 20px; */
+        padding: 10px 50px;
+        margin-left: 2px;
+        margin-top: 15px;
+        margin-bottom: 5px;
+        margin-right: 430px;
+    }
+    #box1{
+        border: 1px solid lightgray;
+        color: dimgrey;
+        font-size: 12px;
+        padding-left: 15px;
+        padding-top: 5px;
+        font-family: 'Roboto',sans-serif;
+    }
+    #box2{
+        border: 1px solid lightgrey;
+        color: dimgray;
+        margin-left: 5px;
+        background-position: center;
+        font-size: 12px;
+        width: 80px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-family: 'Roboto',sans-serif;
+    }
+    #box3{
+    border: 1px solid white;
+    background-color: rgb(71,199,182);
+    margin-left: 5px;
+    color: white;
+    width: 130px;
+    font-size: small;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Roboto',sans-serif;
+    }    
+    #box4{
+    border: 1px solid white;
+    margin-left: 5px;
+    color: dimgray;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-top: 5px;
+    width: 50px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #box5{
+    border: 1px solid white;
+    color: dimgray;
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    width: 40px;
+    margin-left: 10px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #box6{
+    border: 1px solid white;
+    color: dimgray;
+    font-style: normal;
+    font-size: 14px;
+    width: 55px;
+    margin-left: 10px;
+    padding-top: 3px;
+    padding-left: 5px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #nav2{
+
+    height: 90px;
+    width: 95vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    }
+    #p{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-left: 400px;
+    color: rgb(107,105,105);
+    font-family: 'Roboto',sans-serif;
+    }
+    #nav3{
+    height: 40px;
+    width: 95px;
+    margin-left: 20px;
+    }
+    #tp{
+    border: 1px solid white;
+    background-color: rgb(241,224,226);
+    color: rgb(46,44,44);
+    height: 28px;
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 5px;
+    width: 250px;
+    margin-left: 500px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #boxx{
+    height: 40px;
+    width: 330px;
+    border: 1px solid gray;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #box7{
+    height: 30px;
+    width: 75px;
+    border: 1px solid rgb(184,174,174);
+    color: gray;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #box8{
+    height: 30px;
+    width: 80px;
+    padding-top: 10px;
+    padding-left: 30px;
+    border-bottom: 3px solid red;
+    color: red;
+    font-family: 'Roboto',sans-serif;
+    }
+    #box9{
+    height: 30px;
+    width: 100px;
+    color: gray;
+    border: 1px solid rgb(199,185,185);
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: 'Roboto',sans-serif;
+    }
+   .div2{
+    height: 50px;
+    width: 700px;
+    border: 1px solid rgb(165,157,157);
+    margin-left: 320px;
+    display: flex;
+    }
+    #box10{
+    height: 52px;
+    color: rgb(70 69 69);
+    width: 100px;
+    border-color: rgb(165,157,157);
+    font-family: 'Roboto',sans-serif;
+    }
+    #box11{
+    height: 47px;
+    width: 500px;
+    }
+    #pl{
+    height: 46px;
+    width: 500px;
+    font-size: medium;
+    padding-left: 20px;
+    font-family: 'Roboto',sans-serif;
+    }
+    #box12{
+    height: 39px;
+    width: 100px;
+    padding-top: 13px;
+    padding-left: 18px;
+    background-color: #f72945;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    }
+   .div3{
+    height: 50px;
+    width: 700px;
+    border: 1px solid lightgray;
+    margin-left: 320px;
+    color: rgb(107,102,102);
+    display: flex;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    }
+   .bt1{
+    height: 10px;
+    width: 20px;
+    margin-top: 20px;
+    border: 1px solid;
+    border: gray;
+    font-family: 'Roboto',sans-serif;
+    }
+    .sel{
+    height: 40px;
+    width: 130px;
+    border: 1px solid rgb(172,167,167);
+    color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+    }
+   .day{
+    height: 40px;
+    width: 130px;
+    border: 1px solid rgb(211,190,190);
+    color: gray;
+    margin-top: 5px;
+    margin-left: 5px;
+    }
+   #p2{
+    margin-top: 40px;
+    margin-left: 500px;
+    font-size: 15px;
+    color: rgb(70,68,68);
+    font-family: 'Roboto',sans-serif;
+    }
+    #add{
+    height: 25px;
+    width: 200px;
+    border: 1px solid;
+    margin-left: 538px;
+    background-color: rgb(37,202,180);
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    font-family: 'Roboto',sans-serif;
+    }
+   a{
+    text-decoration: none;
+    }
+    a:link{
+    color: white;
+    }
+   .lnav{
+    height: 40px;
+    width: 100vh;
+    display: flex;
+    margin-top: 5px;
+    border: 1px solid white;
+    color: white;
+    background-color: rgb(76,76,114);
+    justify-content: center;
+    font-family: 'Roboto',sans-serif;
+    font-size: 13px;
+    }
+    #lr{
+    height: 20px;
+    width: 30px;
+    border: 1px solid rgb(76,76,114);
+    font-size: 25px;
+    margin-top: 5px;
+    }
+    #r{
+    height: 20px;
+    width: 100px;
+    border: 1px solid rgb(76,76,114);
+    font-size: 13px;
+    background-color: white;
+    margin-top: 8px;
+    margin-left: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: rgb(85,83,83);
+    }
+    </style>
+</head>
+<body>
+    <div id="parent">
+<nav id="nav1">
+    <div id="img"></div>
+<div class="box" id="box1"><i class="fa fa-book" area-hidden="true"></i>My Bookings</div>
+<div class="box" id="box2"><i class="fa fa-money" aria-hidden="true"></i>I pay Rent</div>
+<div class="box" id="box3">For Property Owners</div>
+<div class="box" id="box4">Sign Up</div>
+<div class="box" id="box5">Long In</div>
+<div class="box" id="box6"><i class="fa fa-bars" area-hidden="true"></i>Menu</div>
+</nav>
+<div id="nav2"><p id="p">World's Largest NoBrokerage Property Site</p></div>
+<div id="nav3">
+    <div id="tp"><i class="fa fa-paint-brush" area-hidden="true"></i><b>Painting and Cleaning|Upto 50% OFF</b></div>
+</div>
+<div id="boxx">
+<div id="box7"><b>Buy</b></div>
+<div id="box8"><b>Rent</b></div>
+<div id="box9"><b>Commercial</b></div>
+</div>
+<div class="div2">
+    <select name="" id="box10">
+    <option value="">Pune</option>
+    <option value="">Mumbai</option>
+    <option value="">Goa</option>
+    <option value="">Delhi</option>
+    <option value="">Banglore</option>
+    <option value="">Hydrabad</option>
+    <option value="">Jaipur</option>
+</select>
+<div id="box11"><input type="text" id="pl" placeholder="Search Upto 3 localities or landmarks"></div>
+<div id="box12"><i class="fa fa-search" area-hidden="true"></i>Search</div>
+</div>
+<div class="div3">
+<div>
+    <input type="radio" class="bt1"><label for=""><b>Full House</b></label>
+    <input type="radio" class="bt1"><label for=""><b>PG Hostel</b></label>
+    <input type="radio" class="bt1"><label for=""><b>Flatemates</b></label>
+</div>
+<div>
+    <select name="" class="sel" id="">
+        <option value="" selected>1RK</option>
+        <option value="">1RK</option>
+        <option value="">2BHK</option>
+        <option value="">3BHK</option>
+        <option value="">4BHK</option>
+    </select>
+</div>
+<div>
+   <select name="" class="day" id="">
+        <option value="" selected>immediate</option>
+        <option value="">Within 10 Days</option>
+        <option value="">Within 15 Days</option>
+        <option value="">Within 20 Days</option>
+        <option value="">Within 30 Days</option>
+    </select>
+</div>
+</div>
+    <p id="p2"><b>----------Are You a Property Owner?-----------</b></p>
+    <div id="add"><a href="https://www.nobroker.com">Post For Free Property add</a></div>
+    <div class="lnav">
+<div>
+    <i class="fa fa-credit-card" area-hidden="true" id="lr"></i> Pay Maintenance and Rent with Credit Card!
+    </div>
+    <div id="r"><b>Pay Rent Now</b></div>
+</div>
+    </div>
+</body>
+</html>

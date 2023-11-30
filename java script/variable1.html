@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log("start");
+        //INITIALIZATION AND DECLARATION
+        var a=10;
+        console.log(a);
+        // REDECLARATION IS POSSIBLE
+        //var a=20;
+    // console.log(a);
+    //reinitialize is possible
+    // a="string1"
+    // console.log(typeof a);
+    // //HOISTING IS POSSIBLE
+    // str=10;
+    // var str;
+    // console.log(str);
+    //INITIALIZATION AND DECLARATION
+    let a=10;
+    console.log(a);//10
+    // let a=10;
+    // console.log(a);
+    //REINITIALIZATIOM IS POSSIBLE
+    // A="reinitialization"
+    console.log(a);
+    //let is block scope variable,
+    // if(true){
+        //let b="block scope"
+    //}
+    console.log(b);
+    //HOISTING IS NOT POSSIBLE IN TERMS OF LET VARIABLE.
+    hoist=20;
+    let hoist;
+    console.log(hoist);
+</script>
+</body>
+</html>
