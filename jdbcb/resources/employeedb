@@ -1,0 +1,5 @@
+userName=root
+password=root
+ClassName=com.mysql.cj.jdbc.Driver
+url=jdbc:mysql://localhost:3306/employeedb?user=root&password=root
+query=SELECT * FROM EMPLOYEE
